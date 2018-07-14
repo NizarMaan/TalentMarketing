@@ -22,6 +22,8 @@ namespace TalentMarketing.Models
             this.project = project;
             this.rating = rating;
             this.reviewBody = reviewBody;
+
+            maxRating = 10;
         }
 
         //Assume we have getters and setters below...
